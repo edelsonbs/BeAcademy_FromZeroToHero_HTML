@@ -50,7 +50,7 @@
     <fieldset>
         <legend>Trabalhando com Inputs</legend>
         
-        <!-- Input Text -->
+        <!-- Input text -->
         <input 
         type="text"
         placeholder="Preencha seu nome"
@@ -61,7 +61,7 @@
         required
         >
         <br>
-        <!-- Input Number -->
+        <!-- Input number -->
         <input 
         type="number"        
         size="50"
@@ -70,23 +70,35 @@
         title="Preencha o dado"        
         >
         <br>
-        <!-- Input Email -->
+        <!-- Input email -->
         <input 
         type="email"        
         size="24"        
         title="Preencha o dado"
         required        
         >
-        <!-- Input Password -->
+        <br>
+        <!-- Input password -->
         <input 
         type="password"        
-        size="24"
-        minlength="8"
-        maxlength="16"        
-        title="Preencha o dado"
-        required        
+        size="24"               
+        title="Sua senha precisa ser Hexadecimal"
+        pattern="[0-9a-fA-F]{4,8}"
+        required
+        inputmode="numeric"     
         >
-        
+        <br>
+        <!-- Input hidden -->
+        <input type="hidden" value="Eu estou escondido">
+        <br>
+
+        <!-- Input color -->
+        <input type="color">
+
+        <br>
+        <!-- Input date, week, datetime-local, month, time -->
+        <input type="datetime-local">
+
         <br>
         <button type="submit">Enviar</button>
 
