@@ -1,7 +1,7 @@
 # HTML
 Repositório criado para armazenar os exercícios do módulo HTML do bootcamp "From Zero To Hero" da Be Academy.
 
-## Temas abordados
+## Conteúdo abordado
 
 - [Atributos e Atributos Globais](https://edelsonbs.github.io/BeAcademy_FromZeroToHero_HTML/index.html)
 - [Aninhamento de Tags e Caractere Reservado](https://edelsonbs.github.io/BeAcademy_FromZeroToHero_HTML/aninhamento.html)
